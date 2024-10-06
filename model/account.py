@@ -38,4 +38,4 @@ class Account:
 ac1 = Account()
 ac1. saveDataToFile()
 ac1. changePassword("123454321")
-ac1. checkAccount("taikhoan", "1234554321")
+ac1. checkAccount("Tai Khoan", "1234554321")

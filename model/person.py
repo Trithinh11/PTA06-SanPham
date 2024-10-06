@@ -1,7 +1,3 @@
-
-
-
-
 exit()
 class Person:
     def __init__(self, _cP, _aP, fn, nn, bt, rl, ed):
