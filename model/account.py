@@ -1,8 +1,8 @@
 class Account:
     def __init__(self, _un = "Tai Khoan", _pw = "123"):
-       self.username = _un
-       self.password = _pw
-    #    self.loadDataFromFile()
+        self.username = _un
+        self.password = _pw
+        self.loadDataFromFile()
     #ham in ra thong tin tai khoa
     def show(self):
          print(self.__dict__)
@@ -30,12 +30,10 @@ class Account:
     #ham kiem tra dang nhap
     def checkAccount(self,_un, _pw):
         if _un == self.username and _pw == self.password:
-            print("Dung thong tin")
+            return True
         else:
-            print("Sai thong tin") 
+            return False 
 
 
-ac1 = Account()
-ac1. saveDataToFile()
-ac1. changePassword("123454321")
-ac1. checkAccount("Tai Khoan", "1234554321")
+
+

@@ -17,7 +17,7 @@
    <string notr="true">background:white;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLineEdit" name="txtUsername">
+   <widget class="QLineEdit" name="txtEmail">
     <property name="geometry">
      <rect>
       <x>330</x>
@@ -33,7 +33,7 @@
      <string>Please type your Username</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="txtPassword">
+   <widget class="QLineEdit" name="txtpassword">
     <property name="geometry">
      <rect>
       <x>330</x>
@@ -49,11 +49,11 @@
      <string>Please type you Password</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btnLogin">
+   <widget class="QPushButton" name="btnsignup">
     <property name="geometry">
      <rect>
       <x>230</x>
-      <y>360</y>
+      <y>440</y>
       <width>391</width>
       <height>51</height>
      </rect>
@@ -70,7 +70,7 @@
      <string notr="true">background:blue;color:white;</string>
     </property>
     <property name="text">
-     <string>Log in</string>
+     <string>Sign up</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -78,7 +78,7 @@
      <rect>
       <x>380</x>
       <y>70</y>
-      <width>101</width>
+      <width>131</width>
       <height>61</height>
      </rect>
     </property>
@@ -91,7 +91,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Login</string>
+     <string>Sign up</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
@@ -102,9 +102,6 @@
       <width>93</width>
       <height>28</height>
      </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color:black</string>
     </property>
     <property name="text">
      <string>Email</string>
@@ -123,11 +120,8 @@
       <height>28</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">color:black</string>
-    </property>
     <property name="text">
-     <string>Password:</string>
+     <string>Password</string>
     </property>
     <property name="icon">
      <iconset>
@@ -153,11 +147,44 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="btnSignUp">
+   <widget class="QLineEdit" name="txtcomfirmpassword">
     <property name="geometry">
      <rect>
       <x>330</x>
-      <y>460</y>
+      <y>340</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Please type you Password</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>192</x>
+      <y>340</y>
+      <width>121</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Confirm Password</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../Downloads/115716_lock_unlock_password_secure_security_icon.png</normaloff>../../../Downloads/115716_lock_unlock_password_secure_security_icon.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnLogin">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>510</y>
       <width>161</width>
       <height>51</height>
      </rect>
@@ -174,7 +201,7 @@
      <string notr="true">background:red;color:white;</string>
     </property>
     <property name="text">
-     <string>Sign Up</string>
+     <string>Login</string>
     </property>
    </widget>
   </widget>
